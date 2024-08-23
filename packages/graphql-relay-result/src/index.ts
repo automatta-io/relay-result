@@ -31,8 +31,7 @@ type MutationConfig<
   successFields?: ThunkObjMap<GraphQLFieldConfig<TSuccess, TContext>>;
   mutateAndGetPayload: MutationFn<
     TInput,
-    | Promise<{ success: true } & TSuccess>
-    | Promise<{ success: false } & TError>
+    | Promise<(TSuccess & { success: true }) | (TError & { success: false })>
     | ({ success: true } & TSuccess)
     | ({ success: false } & TError),
     TContext
