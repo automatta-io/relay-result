@@ -1,0 +1,39 @@
+{
+  "name": "react-relay-result",
+  "version": "0.0.1",
+  "author": "Automatta.io <open-source@automatta.io>",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "relay",
+    "react",
+    "graphql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automatta-io/relay-result.git",
+    "directory": "packages/react-relay-result"
+  },
+  "bugs": {
+    "url": "https://github.com/automatta-io/relay-result/issues"
+  },
+  "homepage": "https://github.com/automatta-io/relay-result#readme",
+  "scripts": {
+    "build": "tsup",
+    "type-check": "bun --bun tsc"
+  },
+  "devDependencies": {
+    "@types/react-relay": "^16.0.6",
+    "@types/relay-runtime": "^17.0.4",
+    "react-relay": "^17.0.0"
+  },
+  "peerDependencies": {
+    "react-relay": "^17.0.0"
+  }
+}

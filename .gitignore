@@ -1,0 +1,29 @@
+# MacOS
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Eslint
+.eslintcache
+
+# Direnv
+.direnv
+
+# Storybook
+*storybook.log
+
+# Relay
+__generated__
+
+# Build
+dist
+
+# Turbopack
+.turbo
+
+# IDE
+.idea

@@ -1,0 +1,26 @@
+{
+  "name": "relay-result",
+  "description": "Relay Result",
+  "author": "Automatta.io <open-source@automatta.io>",
+  "private": true,
+  "packageManager": "pnpm@9.7.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automatta-io/relay-result.git"
+  },
+  "bugs": {
+    "url": "https://github.com/automatta-io/relay-result/issues"
+  },
+  "homepage": "https://github.com/automatta-io/relay-result#readme",
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo build",
+    "type-check": "turbo type-check"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "tsup": "^8.2.4",
+    "turbo": "^2.0.1",
+    "typescript": "^5.3.3"
+  }
+}
