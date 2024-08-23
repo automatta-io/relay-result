@@ -173,3 +173,7 @@ const LoginForm = () => {
 
 export default LoginForm;
 ```
+
+## License
+
+Relay Result is under the [MIT License](https://github.com/automatta-io/relay-result/blob/main/LICENSE).
