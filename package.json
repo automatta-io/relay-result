@@ -15,9 +15,11 @@
   "license": "MIT",
   "scripts": {
     "build": "turbo build",
+    "publish-packages": "pnpm build && changeset version && changeset publish",
     "type-check": "turbo type-check"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.7",
     "@types/node": "^20.11.24",
     "tsup": "^8.2.4",
     "turbo": "^2.0.1",
