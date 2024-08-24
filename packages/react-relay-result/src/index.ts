@@ -74,10 +74,17 @@ export const useMutationResult = <
         }
 
         if (result.__typename === `${name.toString()}Success`) {
-          const onSuccess = args.onSuccess || config.onSuccess;
+          if (args.onSuccess) {
+            void args.onSuccess(
+              result as Extract<
+                TMutation['response'][N],
+                MutationResultSuccess<N>
+              >,
+            );
+          }
 
-          if (onSuccess) {
-            void onSuccess(
+          if (config.onSuccess) {
+            void config.onSuccess(
               result as Extract<
                 TMutation['response'][N],
                 MutationResultSuccess<N>
@@ -87,10 +94,17 @@ export const useMutationResult = <
         }
 
         if (result.__typename === `${name.toString()}Error`) {
-          const onError = args.onError || config.onError;
+          if (args.onError) {
+            void args.onError(
+              result as Extract<
+                TMutation['response'][N],
+                MutationResultError<N>
+              >,
+            );
+          }
 
-          if (onError) {
-            void onError(
+          if (config.onError) {
+            void config.onError(
               result as Extract<
                 TMutation['response'][N],
                 MutationResultError<N>
