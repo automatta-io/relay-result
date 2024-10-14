@@ -83,7 +83,7 @@ export const UserLogin = mutationWithResult<
   __YourContext
 >({
   name: 'UserLogin',
-    inputFields: {
+  inputFields: {
     email: {
       type: new GraphQLNonNull(GraphQLString),
     },
