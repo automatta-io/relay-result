@@ -91,7 +91,7 @@ export const UserLogin = mutationWithResult<
       type: new GraphQLNonNull(GraphQLInt),
     },
   },
-  mutateAndGetPayload: ({ email, password }) => {
+  mutateAndGetPayload: async ({ email, password }) => {
     const userLoginResult = await userLogin({ email, password });
 
     if (!userLoginResult.success) {
