@@ -80,16 +80,15 @@ export const UserLogin = mutationWithResult<
   UserLoginInput,
   UserLoginSuccess,
   UserLoginError,
-  __YourContext,
-  __YourCustomExtensions
+  __YourContext
 >({
   name: 'UserLogin',
-  inputFields: {
+    inputFields: {
     email: {
-      type: new GrapqhQLNonNull(GraphQLString),
+      type: new GraphQLNonNull(GraphQLString),
     },
     password: {
-      type: new GraphqlNonNull(GraphQLInt),
+      type: new GraphQLNonNull(GraphQLInt),
     },
   },
   mutateAndGetPayload: ({ email, password }) => {
