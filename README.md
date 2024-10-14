@@ -104,6 +104,7 @@ export const UserLogin = mutationWithResult<
     const { user } = userLoginResult;
 
     return {
+      success: true,
       userId: user.id,
     };
   },
