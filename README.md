@@ -80,19 +80,18 @@ export const UserLogin = mutationWithResult<
   UserLoginInput,
   UserLoginSuccess,
   UserLoginError,
-  __YourContext,
-  __YourCustomExtensions
+  __YourContext
 >({
   name: 'UserLogin',
   inputFields: {
     email: {
-      type: new GrapqhQLNonNull(GraphQLString),
+      type: new GraphQLNonNull(GraphQLString),
     },
     password: {
-      type: new GraphqlNonNull(GraphQLInt),
+      type: new GraphQLNonNull(GraphQLInt),
     },
   },
-  mutateAndGetPayload: ({ email, password }) => {
+  mutateAndGetPayload: async ({ email, password }) => {
     const userLoginResult = await userLogin({ email, password });
 
     if (!userLoginResult.success) {
@@ -105,6 +104,7 @@ export const UserLogin = mutationWithResult<
     const { user } = userLoginResult;
 
     return {
+      success: true,
       userId: user.id,
     };
   },
