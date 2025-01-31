@@ -1,0 +1,4 @@
+{
+  "extends": "@automatta/style-guide/typescript/base",
+  "exclude": ["**/node_modules", "**/dist"]
+}

@@ -46,7 +46,6 @@ type UseMutationResultArgs<
 > = {
   mutation: GraphQLTaggedNode;
   name: keyof TMutation['response'];
-  disableToast?: boolean;
 } & UseMutationExecuteArgs<TMutation, N>;
 
 export const useMutationResult = <
@@ -55,7 +54,6 @@ export const useMutationResult = <
 >({
   name,
   mutation,
-  disableToast = false,
   ...args
 }: UseMutationResultArgs<TMutation, N>) => {
   const [execute, isPending] = useMutation<TMutation>(mutation);
@@ -69,7 +67,7 @@ export const useMutationResult = <
       onCompleted: (response: TMutation['response']) => {
         const result = response[name];
 
-        if (!result.hasOwnProperty('__typename')) {
+        if (!Object.hasOwn(result, '__typename')) {
           return;
         }
 
