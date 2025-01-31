@@ -2,6 +2,7 @@
   "name": "relay-result",
   "description": "Relay Result",
   "author": "Automatta.io <open-source@automatta.io>",
+  "type": "module",
   "private": true,
   "packageManager": "pnpm@9.7.0",
   "repository": {
@@ -14,15 +15,24 @@
   "homepage": "https://github.com/automatta-io/relay-result#readme",
   "license": "MIT",
   "scripts": {
+    "format": "prettier --write .",
+    "lint": "turbo lint",
     "build": "turbo build",
     "publish-packages": "pnpm build && changeset version && changeset publish",
     "type-check": "turbo type-check"
   },
+  "prettier": "@automatta/style-guide/prettier",
   "devDependencies": {
+    "@automatta/style-guide": "^0.0.2",
     "@changesets/cli": "^2.27.7",
     "@types/node": "^20.11.24",
+    "eslint": "^9.19.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "prettier": "^3.4.2",
     "tsup": "^8.2.4",
     "turbo": "^2.0.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^8.22.0"
   }
 }
