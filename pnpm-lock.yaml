@@ -57,8 +57,8 @@ importers:
         specifier: ^16.0.6
         version: 16.0.6
       '@types/relay-runtime':
-        specifier: ^17.0.4
-        version: 17.0.4
+        specifier: ^20.1.1
+        version: 20.1.1
       react-relay:
         specifier: ^20.1.1
         version: 20.1.1(react@18.3.1)
@@ -493,8 +493,8 @@ packages:
   '@types/react@18.3.4':
     resolution: {integrity: sha512-J7W30FTdfCxDDjmfRM+/JqLHBIyl7xUIp9kwK637FGmY7+mkSFSe6L4jpZzhj5QMfLssSDP4/i75AKkrdC7/Jw==}
 
-  '@types/relay-runtime@17.0.4':
-    resolution: {integrity: sha512-fB77br4lXlBYM/HpI6VI6KCrj5pw0LiAnkZOkffjirNYso+dzXGWkeIm0G0MGszD8WY1et+r1Uj2TA6rscBXNQ==}
+  '@types/relay-runtime@20.1.1':
+    resolution: {integrity: sha512-loM2iJteknnJcsxrynmBVb7pIDkSkJUuCMnAa/oDFcrvaxkDvq8iy0J2UshMdDy14iJJocDblXeAu7c6Q1+Ucw==}
 
   '@typescript-eslint/eslint-plugin@8.22.0':
     resolution: {integrity: sha512-4Uta6REnz/xEJMvwf72wdUnC3rr4jAQf5jnTkeRQ9b6soxLxhDEbS/pfMPoJLDfFPNVRdryqWUIV/2GZzDJFZw==}
@@ -2349,14 +2349,14 @@ snapshots:
   '@types/react-relay@16.0.6':
     dependencies:
       '@types/react': 18.3.4
-      '@types/relay-runtime': 17.0.4
+      '@types/relay-runtime': 20.1.1
 
   '@types/react@18.3.4':
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
 
-  '@types/relay-runtime@17.0.4': {}
+  '@types/relay-runtime@20.1.1': {}
 
   '@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0)(typescript@5.7.3)':
     dependencies:

@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@types/react-relay": "^16.0.6",
-    "@types/relay-runtime": "^17.0.4",
+    "@types/relay-runtime": "^20.1.1",
     "react-relay": "^20.1.1"
   },
   "peerDependencies": {
