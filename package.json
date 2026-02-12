@@ -23,7 +23,7 @@
   },
   "prettier": "@automatta/style-guide/prettier",
   "devDependencies": {
-    "@automatta/style-guide": "^0.0.2",
+    "@automatta/style-guide": "^0.0.3",
     "@changesets/cli": "^2.29.8",
     "@types/node": "^25.2.3",
     "eslint": "^9.19.0",

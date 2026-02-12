@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@automatta/style-guide':
-        specifier: ^0.0.2
-        version: 0.0.2(@eslint/js@9.19.0)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0))(eslint-plugin-unused-imports@4.4.1(@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0))(typescript-eslint@8.22.0(eslint@9.19.0)(typescript@5.7.3))
+        specifier: ^0.0.3
+        version: 0.0.3(@eslint/js@9.19.0)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0))(eslint-plugin-unused-imports@4.4.1(@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0))(typescript-eslint@8.22.0(eslint@9.19.0)(typescript@5.7.3))
       '@changesets/cli':
         specifier: ^2.29.8
         version: 2.29.8(@types/node@25.2.3)
@@ -65,8 +65,8 @@ importers:
 
 packages:
 
-  '@automatta/style-guide@0.0.2':
-    resolution: {integrity: sha512-oNRrMnHPAUAWWYad4aeaIPGkaVA4SyYATbyyV0ZpYZ9vkC0Ob6X2bv7RNObH70xTyecyhAKVEuYrWmzI8lda2Q==}
+  '@automatta/style-guide@0.0.3':
+    resolution: {integrity: sha512-CrP18VE0ZOO3nd17AaQkS0Pa6yDnCmfXs1nehC6W8hRsiJNmTNPT0xniFn4z08vbgr9xftxFNVgx/6cWJ/QJnA==}
     peerDependencies:
       '@eslint/js': ^9.19.0
       eslint-plugin-import: ^2.31.0
@@ -1936,7 +1936,7 @@ packages:
 
 snapshots:
 
-  '@automatta/style-guide@0.0.2(@eslint/js@9.19.0)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0))(eslint-plugin-unused-imports@4.4.1(@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0))(typescript-eslint@8.22.0(eslint@9.19.0)(typescript@5.7.3))':
+  '@automatta/style-guide@0.0.3(@eslint/js@9.19.0)(eslint-plugin-import@2.31.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0))(eslint-plugin-unused-imports@4.4.1(@typescript-eslint/eslint-plugin@8.22.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0))(typescript-eslint@8.22.0(eslint@9.19.0)(typescript@5.7.3))':
     dependencies:
       '@eslint/js': 9.19.0
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@8.22.0(eslint@9.19.0)(typescript@5.7.3))(eslint@9.19.0)
