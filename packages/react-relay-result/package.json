@@ -32,9 +32,9 @@
   "devDependencies": {
     "@types/react-relay": "^16.0.6",
     "@types/relay-runtime": "^17.0.4",
-    "react-relay": "^17.0.0"
+    "react-relay": "^20.1.1"
   },
   "peerDependencies": {
-    "react-relay": "^17.0.0"
+    "react-relay": "^20.1.1"
   }
 }
