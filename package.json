@@ -24,7 +24,7 @@
   "prettier": "@automatta/style-guide/prettier",
   "devDependencies": {
     "@automatta/style-guide": "^0.0.2",
-    "@changesets/cli": "^2.27.7",
+    "@changesets/cli": "^2.29.8",
     "@types/node": "^25.2.3",
     "eslint": "^9.19.0",
     "eslint-plugin-import": "^2.31.0",
