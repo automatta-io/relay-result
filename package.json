@@ -27,7 +27,7 @@
     "@changesets/cli": "^2.29.8",
     "@types/node": "^25.2.3",
     "eslint": "^9.19.0",
-    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-unused-imports": "^4.4.1",
     "prettier": "^3.4.2",
     "tsup": "^8.2.4",
