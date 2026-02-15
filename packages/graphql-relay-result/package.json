@@ -1,6 +1,7 @@
 {
   "name": "graphql-relay-result",
   "version": "0.0.4",
+  "type": "module",
   "author": "Automatta.io <open-source@automatta.io>",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/automatta-io/relay-result#readme",
   "scripts": {
     "build": "tsup",
+    "test": "vitest run",
     "lint": "eslint .",
     "type-check": "bun --bun tsc"
   },
