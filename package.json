@@ -23,7 +23,7 @@
   },
   "prettier": "@automatta/style-guide/prettier",
   "devDependencies": {
-    "@automatta/style-guide": "^0.0.3",
+    "@automatta/style-guide": "^0.1.1",
     "@changesets/cli": "^2.29.8",
     "@types/node": "^25.2.3",
     "eslint": "^9.19.0",
@@ -31,8 +31,8 @@
     "eslint-plugin-unused-imports": "^4.4.1",
     "prettier": "^3.8.1",
     "tsup": "^8.5.1",
-    "turbo": "^2.8.8",
-    "typescript": "^5.7.3",
+    "turbo": "^2.8.9",
+    "typescript": "^5.9.3",
     "typescript-eslint": "^8.55.0"
   }
 }
