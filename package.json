@@ -18,6 +18,7 @@
     "format": "prettier --write .",
     "lint": "turbo lint",
     "build": "turbo build",
+    "test": "turbo test",
     "publish-packages": "pnpm build && changeset version && changeset publish",
     "type-check": "turbo type-check"
   },
@@ -33,6 +34,7 @@
     "tsup": "^8.5.1",
     "turbo": "^2.8.9",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.55.0"
+    "typescript-eslint": "^8.55.0",
+    "vitest": "^4.0.18"
   }
 }
