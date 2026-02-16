@@ -4,7 +4,7 @@
   "author": "Automatta.io <open-source@automatta.io>",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.7.0",
+  "packageManager": "pnpm@10.28.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/automatta-io/relay-result.git"
