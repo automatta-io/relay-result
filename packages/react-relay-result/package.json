@@ -16,6 +16,10 @@
     "react",
     "graphql"
   ],
+  "publishConfig": {
+    "provenance": true,
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/automatta-io/relay-result.git",
