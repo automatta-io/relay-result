@@ -43,7 +43,7 @@
     "@types/relay-runtime": "^20.1.1",
     "happy-dom": "^20.6.1",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "react-dom": "^19.2.4",
     "react-relay": "^20.1.1"
   },
   "peerDependencies": {
