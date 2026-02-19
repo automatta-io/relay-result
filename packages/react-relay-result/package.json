@@ -38,11 +38,11 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
-    "@types/react": "^18.0.0",
+    "@types/react": "^19.2.14",
     "@types/react-relay": "^18.2.1",
     "@types/relay-runtime": "^20.1.1",
     "happy-dom": "^20.6.3",
-    "react": "^18.0.0",
+    "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-relay": "^20.1.1"
   },
