@@ -48,11 +48,11 @@ importers:
   packages/graphql-relay-result:
     devDependencies:
       graphql:
-        specifier: ^16.13.0
-        version: 16.13.0
+        specifier: ^16.13.1
+        version: 16.13.1
       graphql-relay:
         specifier: ^0.10.2
-        version: 0.10.2(graphql@16.13.0)
+        version: 0.10.2(graphql@16.13.1)
 
   packages/react-relay-result:
     devDependencies:
@@ -1438,8 +1438,8 @@ packages:
     peerDependencies:
       graphql: ^16.2.0
 
-  graphql@16.13.0:
-    resolution: {integrity: sha512-uSisMYERbaB9bkA9M4/4dnqyktaEkf1kMHNKq/7DHyxVeWqHQ2mBmVqm5u6/FVHwF3iCNalKcg82Zfl+tffWoA==}
+  graphql@16.13.1:
+    resolution: {integrity: sha512-gGgrVCoDKlIZ8fIqXBBb0pPKqDgki0Z/FSKNiQzSGj2uEYHr1tq5wmBegGwJx6QB5S5cM0khSBpi/JFHMCvsmQ==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
 
   happy-dom@20.7.0:
@@ -3960,11 +3960,11 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graphql-relay@0.10.2(graphql@16.13.0):
+  graphql-relay@0.10.2(graphql@16.13.1):
     dependencies:
-      graphql: 16.13.0
+      graphql: 16.13.1
 
-  graphql@16.13.0: {}
+  graphql@16.13.1: {}
 
   happy-dom@20.7.0:
     dependencies:
