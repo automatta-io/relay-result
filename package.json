@@ -26,7 +26,7 @@
   "devDependencies": {
     "@automatta/style-guide": "^0.1.1",
     "@changesets/cli": "^2.30.0",
-    "@types/node": "^25.3.3",
+    "@types/node": "^25.5.0",
     "eslint": "^9.19.0",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-unused-imports": "^4.4.1",
